@@ -1,0 +1,51 @@
+{
+    "Entries": [
+        {
+            "FileID": 500,
+            "TypeID": 1,
+            "TypeName": "Entity",
+            "Properties": {
+                "Parent": { "Guid": 0, "InstanceID": 0, "FileID": 0 },
+                "Tag": "Wall"
+            }
+        },
+        {
+            "FileID": 501,
+            "TypeID": 2,
+            "TypeName": "TransformData",
+            "Properties": {
+                "Parent": { "Guid": 6, "InstanceID": 0, "FileID": 500 },
+                "Position": { "x": 0, "y": 0 },
+                "Scale": { "x": 1, "y": 1 }
+            }
+        },
+        {
+            "FileID": 502,
+            "TypeID": 3,
+            "TypeName": "ShapeData",
+            "Properties": {
+                "Parent": { "Guid": 6, "InstanceID": 0, "FileID": 500 },
+                "Mesh": { "Source": "Engine", "Guid": 0 }
+            }
+        },
+        {
+            "FileID": 503,
+            "TypeID": 4,
+            "TypeName": "RenderData",
+            "Properties": {
+                "Parent": { "Guid": 6, "InstanceID": 0, "FileID": 500 },
+                "Material": { "Source": "Engine", "Guid": 6 }
+            }
+        },
+	    {
+            "FileID": 504,
+            "TypeID": 5,
+            "TypeName": "PhysicsData",
+            "Properties": {
+                "Parent": { "Guid": 6, "InstanceID": 0, "FileID": 500 },
+                "IsStatic": true,
+                "Velocity": { "x": 0, "y": 0 }
+            }
+        }
+    ]
+}

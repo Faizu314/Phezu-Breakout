@@ -1,0 +1,5 @@
+{
+	"Image": { "Source": "Project", "Guid": 102 },
+	"FilteringMode": "Point",
+	"WrapMode": "ClampToBorder"
+}
