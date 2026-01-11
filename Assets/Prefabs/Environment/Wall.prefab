@@ -28,16 +28,7 @@
                 "Mesh": { "Source": "Engine", "Guid": 0 }
             }
         },
-        {
-            "FileID": 503,
-            "TypeID": 4,
-            "TypeName": "RenderData",
-            "Properties": {
-                "Parent": { "Guid": 6, "InstanceID": 0, "FileID": 500 },
-                "Material": { "Source": "Engine", "Guid": 6 }
-            }
-        },
-	    {
+	      {
             "FileID": 504,
             "TypeID": 5,
             "TypeName": "PhysicsData",

@@ -5,7 +5,7 @@
             "TypeID": 1,
             "TypeName": "Entity",
             "Properties": {
-                "Parent": { "Guid": 0, "InstanceID": 0, "FileID": 0 },
+                "Parent": { "Guid": 4, "InstanceID": 0, "FileID": 0 },
                 "Tag": "Ball"
             }
         },
@@ -24,7 +24,7 @@
             "TypeID": 3,
             "TypeName": "ShapeData",
             "Properties": {
-                "Parent": { "FileID": 500 },
+                "Parent": { "Guid": 4, "FileID": 500 },
                 "Mesh": { "Source": "Engine", "Guid": 0 }
             }
         },
