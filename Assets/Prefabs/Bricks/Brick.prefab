@@ -34,7 +34,7 @@
             "TypeName": "RenderData",
             "Properties": {
                 "Parent": { "Guid": 3, "InstanceID": 0, "FileID": 500 },
-                "Material": { "Source": "Engine", "Guid": 6 }
+                "Material": { "Source": "Project", "Guid": 105 }
             }
         },
 	    {

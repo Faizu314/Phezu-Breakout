@@ -16,7 +16,7 @@
             "Properties": {
                 "Parent": { "Guid": 4, "InstanceID": 0, "FileID": 500 },
                 "Position": { "x": 0, "y": 0 },
-                "Scale": { "x": 1, "y": 1 }
+                "Scale": { "x": 0.7, "y": 0.7 }
             }
         },
         {
@@ -34,7 +34,7 @@
             "TypeName": "RenderData",
             "Properties": {
                 "Parent": { "Guid": 4, "InstanceID": 0, "FileID": 500 },
-                "Material": { "Source": "Engine", "Guid": 6 }
+                "Material": { "Source": "Project", "Guid": 104 }
             }
         },
         {

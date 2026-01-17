@@ -1,7 +1,7 @@
 {
 	"Shader": { "Source": "Engine", "Guid": 3 },
 	"Textures": {
-		"mainTex": { "Source": "Engine", "Guid": 2 }
+		"mainTex": { "Source": "Project", "Guid": 103 }
 	},
 	"Properties": {
 		"tint": {

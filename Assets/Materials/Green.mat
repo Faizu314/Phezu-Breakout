@@ -1,0 +1,12 @@
+{
+	"Shader": { "Source": "Engine", "Guid": 3 },
+	"Textures": {
+		"mainTex": { "Source": "Engine", "Guid": 2 }
+	},
+	"Properties": {
+		"tint": {
+			"Type": "Color",
+			"Value": { "r": 20, "g": 120, "b": 20, "a": 255 }
+		}
+	}
+}
