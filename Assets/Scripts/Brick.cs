@@ -13,6 +13,7 @@ namespace Game
     {
         private Transform m_Transform;
         private Renderer m_Renderer;
+        private Material m_Material;
         private IBrickListener m_Listener;
 
         private Color[] m_Colors;
@@ -26,6 +27,9 @@ namespace Game
         {
             m_Transform = Entity.GetComponent<Transform>();
             m_Renderer = Entity.GetComponent<Renderer>();
+            Material material = m_Renderer.Material;
+            m_Material = Material.Create(material);
+            m_Renderer.Material = m_Material;
         }
         
         public void Initialize(IBrickListener listener, BrickData brickData)
@@ -38,9 +42,9 @@ namespace Game
             m_Colors = brickData.Colors.Clone() as Color[];
 
             if (m_IsUnbreakable)
-                m_Renderer.SetColor("tint", m_Colors[0]);
+                m_Material.SetColor("tint", m_Colors[0]);
             else
-                m_Renderer.SetColor("tint", m_Colors[m_CurrentHealth - 1]);
+                m_Material.SetColor("tint", m_Colors[m_CurrentHealth - 1]);
         }
 
         public void OnHit() {
@@ -56,7 +60,7 @@ namespace Game
                 return;
             }
 
-            m_Renderer.SetColor("tint", m_Colors[m_CurrentHealth - 1]);
+            m_Material.SetColor("tint", m_Colors[m_CurrentHealth - 1]);
         }
     }
 }

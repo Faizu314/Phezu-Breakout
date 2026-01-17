@@ -30,15 +30,15 @@
                 "Overrides": {
                     "m_BrickPrefabRef": {
                         "Type": 4,
-                        "Value": 3
+                        "Value": { "Source": "Project", "Guid": 3 }
                     },
-					          "m_BallPrefabRef": {
+					"m_BallPrefabRef": {
                         "Type": 4,
-                        "Value": 4
+                        "Value": { "Source": "Project", "Guid": 4 }
                     },
                     "m_PlayerPrefabRef": {
                         "Type": 4,
-                        "Value": 2
+                        "Value": { "Source": "Project", "Guid": 2 }
                     }
                 }
             }
